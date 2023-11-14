@@ -1,0 +1,73 @@
+@use "variable";
+
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+ul {
+    padding: 0;
+}
+
+body {
+    background-color: variable.$BG;
+
+    .oubun {
+        @include variable.oubun();
+    }
+
+    .wabun {
+        @include variable.wabun();
+    }
+
+    .tategumi {
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+
+    .XL-text {
+        font-size: clamp(3.5rem, 5vw + 1rem, 8rem);
+    }
+
+    .L-text {
+        font-size: clamp(2rem, 2vw + 1rem, 3rem);
+    }
+
+    .M-text {
+        font-size: clamp(0.7rem, 0.8vw + 1rem, 2rem);
+    }
+
+    .S-text {
+        font-size: clamp(0.5rem, 0.8vw + 1rem, 1rem);
+    }
+
+}
+
+header {
+    .navbar {
+        background-color: variable.$BG;
+        border-bottom: 2px solid variable.$font;
+        filter: drop-shadow(0px 1px 2px variable.$font);
+    }
+
+    .oubun {
+        font-weight: 600;
+    }
+
+    .navbar-collapse {
+        justify-content: end;
+    }
+}
+
+footer {
+    background-color: variable.$font;
+
+    p {
+        color: variable.$BG;
+        text-align: center;
+        padding: 1rem;
+        margin: 0;
+    }
+}

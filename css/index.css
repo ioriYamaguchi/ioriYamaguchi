@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;600&display=swap");
+.FV {
+  margin-top: 30vh;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+.FV h1 {
+  font-weight: 600;
+  visibility: hidden;
+}
+.FV ul {
+  font-weight: 400;
+}
+.FV ul .intLi {
+  visibility: hidden;
+}
+
+.SV {
+  height: 70vh;
+}
+.SV .col {
+  display: flex;
+}
+.SV .col .SV-title {
+  font-weight: 600;
+  visibility: hidden;
+}
+.SV .col ul {
+  margin-left: 3%;
+}
+.SV .col ul .skill-li {
+  visibility: hidden;
+}
+
+.TV {
+  height: 70vh;
+}
+.TV #TV-title {
+  font-weight: 600;
+  visibility: hidden;
+}/*# sourceMappingURL=index.css.map */

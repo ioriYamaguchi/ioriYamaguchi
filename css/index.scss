@@ -1,0 +1,52 @@
+@use "variable";
+
+.FV {
+    margin-top: 30vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    h1 {
+        font-weight: 600;
+        visibility: hidden;
+    }
+
+    ul {
+        font-weight: 400;
+
+        .intLi {
+            visibility: hidden;
+        }
+    }
+}
+
+.SV {
+    height: 70vh;
+
+
+    .col {
+        display: flex;
+
+        .SV-title {
+            font-weight: 600;
+            visibility: hidden;
+        }
+
+        ul {
+            margin-left: 3%;
+
+            .skill-li {
+                visibility: hidden;
+            }
+        }
+    }
+}
+
+.TV {
+    height: 70vh;
+
+    #TV-title {
+        font-weight: 600;
+        visibility: hidden;
+    }
+}

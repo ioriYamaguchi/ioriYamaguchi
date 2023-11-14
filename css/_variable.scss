@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+// カラー
+$BG: #f4f4f4;
+$font: #242424;
+$third: #f0c272;
+
+//  フォント
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;600&display=swap');
+
+@mixin oubun() {
+    font-family: 'Montserrat', sans-serif;
+    color: $font;
+    font-weight: 300;
+}
+
+@mixin wabun() {
+    font-family: 'Noto Sans JP', sans-serif;
+    color: $font;
+    font-weight: 300;
+}

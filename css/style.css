@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;600&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+ul {
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+body .oubun {
+  font-family: "Montserrat", sans-serif;
+  color: #242424;
+  font-weight: 300;
+}
+body .wabun {
+  font-family: "Noto Sans JP", sans-serif;
+  color: #242424;
+  font-weight: 300;
+}
+body .tategumi {
+  writing-mode: vertical-rl;
+}
+body .XL-text {
+  font-size: clamp(3.5rem, 5vw + 1rem, 8rem);
+}
+body .L-text {
+  font-size: clamp(2rem, 2vw + 1rem, 3rem);
+}
+body .M-text {
+  font-size: clamp(0.7rem, 0.8vw + 1rem, 2rem);
+}
+body .S-text {
+  font-size: clamp(0.5rem, 0.8vw + 1rem, 1rem);
+}
+
+header .navbar {
+  background-color: #f4f4f4;
+  border-bottom: 2px solid #242424;
+  filter: drop-shadow(0px 1px 2px #242424);
+}
+header .oubun {
+  font-weight: 600;
+}
+header .navbar-collapse {
+  justify-content: end;
+}
+
+footer {
+  background-color: #242424;
+}
+footer p {
+  color: #f4f4f4;
+  text-align: center;
+  padding: 1rem;
+  margin: 0;
+}/*# sourceMappingURL=style.css.map */
